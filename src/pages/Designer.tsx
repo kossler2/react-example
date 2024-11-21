@@ -1,5 +1,11 @@
+import Box from "@mui/material/Box";
+import Header from "../components/Header";
+
 export default function Designer() {
   return (
-    <div>Designer</div>
+    <Box sx={{ display: "flex" }}>
+      <Header appBarTitle="Designer" />
+      <div>Designer</div>
+    </Box>
   );
 }
